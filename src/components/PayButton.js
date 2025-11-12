@@ -79,7 +79,7 @@ const PayButton = ({ amount, charity }) => {
             };
 
             if (!window.Razorpay) {
-                alert("Payment SDK not loaded. Please refresh and try again.");
+                window.alert("Payment SDK not loaded. Please refresh and try again.");
                 setProcessing(false);
                 return;
             }
