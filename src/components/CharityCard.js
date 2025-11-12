@@ -2,6 +2,7 @@
 
 import PayButton from "@/components/PayButton"
 import { useState } from "react";
+import Script from "next/script";
 
 const CharityCard = ({ title, desc, website, img }) => {
 
@@ -14,7 +15,7 @@ const CharityCard = ({ title, desc, website, img }) => {
 
   return (
     <>
-      <script src="https://cdn.lordicon.com/lordicon.js"></script>
+      <Script src="https://cdn.lordicon.com/lordicon.js" />
       <div className="flex flex-col sm:flex-row w-full bg-white shadow-md hover:shadow-lg transition-shadow duration-300 rounded-2xl overflow-hidden my-4 border border-gray-200 h-[360px] sm:h-[180px]">
         {/* Image Section */}
         <div className="w-full sm:w-1/5 h-[50%] sm:h-full overflow-hidden flex justify-center items-center bg-gray-50">
