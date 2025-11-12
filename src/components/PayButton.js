@@ -123,7 +123,7 @@ const PayButton = ({ amount, charity }) => {
                                 d="M4 12a8 8 0 018-8v8z"
                             ></path>
                         </svg>
-                        "Processing..."
+                        Processing...
                     </>
                     :
                     "Pay"}
