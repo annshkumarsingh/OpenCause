@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.navLinks{
+    @apply font-medium hover:text-emerald-500 transition-colors duration-125;
+}
